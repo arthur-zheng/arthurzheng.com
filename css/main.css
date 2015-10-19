@@ -9,11 +9,14 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
 
 html {
+    font-family: lora, serif;
     color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+    /*going to use rem*/
+    font-size: 62.5%;
+    line-height: 1.2;
 }
 
 /*
