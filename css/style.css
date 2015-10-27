@@ -15,12 +15,15 @@ html,body {
 	background-color: #eee;
 }
 .container {
+	display: flex;
 	position: relative;
 	min-width: 100rem;
 	height: 100%;
 }
+/**************************
+*			L E F T
+***************************/
 .menu {
-	display: inline-block;
 	height: 100%;
 	width: 200px;
 	text-align: left;
@@ -70,6 +73,83 @@ ul.sec {
 	transition: ease 0.5s;
 	/*background-color: rgba(221, 221, 221, 0.53)*/
 }
+/**************************
+*			R I G H T
+***************************/
 .content {
-	display: inline-block
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
+	
+	/*flex-wrap: wrap;*/
+	flex-flow: row wrap;
+}
+.item {
+	position: relative;
+	
+	background: #fff url(../img/default-placeholder.png) center;
+	background-size: cover;
+	box-shadow: 0px 2px 2px #ccc;
+    transition: all 0.2s ease;
+	
+	height: 22rem;
+    width: 26rem;
+	padding: 0;
+	margin: 1rem;
+	
+	cursor: pointer;
+}
+.item--k2 {
+	background-image: url(../img/k2_shot.jpg);
+}
+.item--fidelisedu-1 {
+	background-image: url(../img/fidelisedu_shot_1.png);
+}
+.item--fidelisedu-2 {
+	background-image: url(../img/k2_shot.png);
+}
+.item--fidelisedu-3 {
+	background-image: url(../img/k2_shot.png);
+}
+.item--methane {
+	background-image: url(../img/methane_shot.png);
+}
+.item--everything-tag {
+	background-image: url(../img/ev_logo.png);
+}
+.item--mininpu {
+	background-image: url(../img/mi_shot.png);
+}
+.item--fallarm {
+	background-image: url(../img/fa_shot.png);
+}
+.item--flickr {
+	background-image: url(../img/flickr.png);
+}
+.item--youku1 {
+	
+}
+.item--youku2 {
+	
+}
+.item:hover {
+	box-shadow: 0px 3px 18px #a9a9a9;
+}
+.item__img {
+	width: 100%;
+	height: 100%;
+}
+.item__detail-wrapper {
+	position: absolute;
+	
+    bottom: 0;
+    width: 100%;
+	background-color: rgba(255,255,255,.86);
+	padding: 1rem;
+	font-size: 1.3rem
+}
+.item__title {
+    font-size: 120%;
+    line-height: 1.15;
+    padding-bottom: .3em;
 }
