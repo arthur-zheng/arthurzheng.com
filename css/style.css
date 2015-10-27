@@ -86,30 +86,31 @@ ul.sec {
 }
 .item {
 	position: relative;
-	
 	background: #fff url(../img/default-placeholder.png) center;
 	background-size: cover;
-	box-shadow: 0px 2px 2px #ccc;
+	box-shadow: 0px 1px 1px #ccc;
     transition: all 0.2s ease;
-	
-	height: 22rem;
+	height: 23rem;
     width: 26rem;
 	padding: 0;
-	margin: 1rem;
-	
+	margin: .5rem;
 	cursor: pointer;
 }
 .item--k2 {
 	background-image: url(../img/k2_shot.jpg);
+	width: 45rem;
 }
 .item--fidelisedu-1 {
 	background-image: url(../img/fidelisedu_shot_1.png);
+	width: 35rem;
 }
 .item--fidelisedu-2 {
-	background-image: url(../img/k2_shot.png);
+	background-image: url(../img/fidelisedu_shot_1.png);
+	width: 32rem;
 }
 .item--fidelisedu-3 {
-	background-image: url(../img/k2_shot.png);
+	background-image: url(../img/fidelisedu_shot_1.png);
+	width: 32rem;
 }
 .item--methane {
 	background-image: url(../img/methane_shot.png);
@@ -140,8 +141,7 @@ ul.sec {
 	height: 100%;
 }
 .item__detail-wrapper {
-	position: absolute;
-	
+	position: absolute;	
     bottom: 0;
     width: 100%;
 	background-color: rgba(255,255,255,.86);
