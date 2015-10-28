@@ -13,7 +13,11 @@
 html,body {
 	font-size:62.5%;
 	height: 100%;
-	background-color: #eee;
+	
+	/*background-color: rgb(231,238,247);*/
+    background-image: url('../img/blue-stripe-bg.png');
+    background-repeat: repeat;
+    background-position: left top;
 }
 .container {
     display: flex;
@@ -112,15 +116,18 @@ ul.sec {
 	width: 45rem;
 }
 .item--fidelisedu-1 {
-	background-image: url(../img/fidelisedu_shot_1.png);
+	background-image: url(../img/proj-fidelisedu/fidelisedu_sum_shot_1.png);
+	background-position: top;
 	width: 35rem;
 }
 .item--fidelisedu-2 {
-	background-image: url(../img/fidelisedu_shot_1.png);
+	background-image: url(../img/proj-fidelisedu/fidelisedu_sum_shot_2.png);
+	background-position: top;
 	width: 32rem;
 }
 .item--fidelisedu-3 {
-	background-image: url(../img/fidelisedu_shot_1.png);
+	background-image: url(../img/proj-fidelisedu/fidelisedu_sum_shot_3.png);
+	background-position: top;
 	width: 32rem;
 }
 .item--methane {
@@ -137,6 +144,7 @@ ul.sec {
 }
 .item--flickr {
 	background-image: url(../img/flickr.png);
+	background-position:bottom;
 }
 .item--youku1 {
 	
@@ -155,12 +163,17 @@ ul.sec {
 	position: absolute;	
     bottom: 0;
     width: 100%;
-	background-color: rgba(255,255,255,.86);
+	background-color: rgba(233, 239, 248, 0.92);
 	padding: 1rem;
 	font-size: 1.3rem
+}
+.item__desc {
+	font-style: italic;
 }
 .item__title {
     font-size: 120%;
     line-height: 1.15;
     padding-bottom: .3em;
+	font-weight: 600;
+	color:#494F58
 }
