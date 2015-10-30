@@ -246,6 +246,9 @@
   max-height: none;
   max-width: none;
 }
+.remodal .img--x-small {
+  width: 20vw
+}
 .padding-lr-0 {
   padding-left:0;
   padding-right:0;
@@ -277,5 +280,8 @@
   }
   .remodal-close:hover {
     color:#555
+  }
+  .remodal .img--x-small {
+	  width: 100%
   }
 }
